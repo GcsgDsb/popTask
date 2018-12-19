@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    /* 内容外层的大盒子 */
+    .father {
+      width: 600px;
+      height: 600px;
+      float: left;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      margin-left: -300px;
+      margin-top: -300px;
+    }
+
+    /* 上半部分大盒子 */
+    .top {
+      margin: 0 100px;
+      width: 400px;
+      height: 500px;
+
+    }
+
+    /* 下半部分大盒子 */
+    .buttom {
+      margin: 0 0;
+      width: 600px;
+      height: 100px;
+    }
+
+    /* 最小的div */
+    .small {
+      width: 100px;
+      height: 100px;
+    }
+
+    /* 宽一点的div */
+    .middle-1 {
+      width: 200px;
+      height: 100px;
+    }
+
+    /* 高一点的div */
+    .middle-2 {
+      width: 100px;
+      height: 200px;
+    }
+
+    .buttom div {
+      width: 100px;
+      height: 100px;
+      float: left
+    }
+
+    .top {
+      float: left;
+    }
+
+    .top div {
+      float: left;
+    }
+
+    .color-1 {
+      background: #CCFFCC
+    }
+
+    .color-2 {
+      background: #FFCCCC
+    }
+
+    .color-3 {
+      background: #CCCCFF
+    }
+
+    .color-4 {
+      background: #CCCCCC
+    }
+  </style>
+</head>
+
+<body>
+  <!-- #CCFFCC -->
+  <!-- #FFCCCC -->
+  <!-- #CCCCFF -->
+  <!-- #CCCCCC -->
+  <div class="father">
+    <div class="top">
+      <div class="small color-1"></div>
+      <div class="middle-1 color-2"></div>
+      <div class="small color-3"></div>
+      <div class="middle-2 color-4"></div>
+      <div class="small color-3"></div>
+      <div class="small color-4"></div>
+      <div class="small color-1"></div>
+      <div class="small color-2"></div>
+      <div class="small color-1"></div>
+      <div class="small color-4"></div>
+      <div class="middle-2 color-2"></div>
+      <div class="middle-2 color-4"></div>
+      <div class="middle-1 color-2"></div>
+      <div class="small color-1"></div>
+      <div class="small color-3"></div>
+    </div>
+    <div class="buttom">
+      <div class="color-1"></div>
+      <div class="color-4"></div>
+      <div class="color-2"></div>
+      <div class="color-3"></div>
+      <div class="color-1"></div>
+      <div class="color-2"></div>
+    </div>
+  </div>
+</body>
+
+</html>
