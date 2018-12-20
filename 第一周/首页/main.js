@@ -56,5 +56,9 @@ let switchFunc = function () {
   })
 }
 
+
+let interval = function () {
+
+}
 navFunc()
 switchFunc()

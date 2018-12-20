@@ -267,6 +267,44 @@ article .area_1 li div:last-child {
   padding: 10px;
 }
 
+.title-nav {
+  background: #333;
+  width: 100%;
+  height: 30px;
+  color: #fff;
+}
+
+.title-name {
+  width: 80%;
+  line-height: 30px;
+}
+
+.title-more {
+  width: 20%;
+  margin-top: 10px;
+  height: 20px;
+  line-height: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
+  text-align: right;
+  font-size: 12px;
+}
+
+.content-img {
+  width: 100%;
+  height: 107px;
+  background: url('./img/03.gif') no-repeat;
+  background-size: cover;
+  margin-top: 10px;
+}
+
+.content-content {
+  width: 100%;
+  margin-top: 10px;
+  font-size: 12px
+}
+
+/* 后勤保障 */
 .logistics {
   width: 212px;
   height: 251px;
@@ -276,6 +314,24 @@ article .area_1 li div:last-child {
   margin-left: 10px;
 }
 
+.logistics-title {
+  background: #fff;
+  color: #333;
+  font-weight: bold
+}
+
+.logistics-img {
+  background: url('./img/04.jpg') no-repeat;
+}
+
+.foot-more {
+  margin-top: 15px;
+  font-size: 12px;
+  text-align: right;
+  width: 100%;
+}
+
+/* 船员中心 */
 .crew {
   width: 212px;
   height: 251px;
@@ -283,6 +339,10 @@ article .area_1 li div:last-child {
   margin-top: 10px;
   padding: 10px;
   margin-left: 10px;
+}
+
+.crew-img {
+  background: url('./img/05.jpg') no-repeat;
 }
 
 .warehouse {
@@ -294,6 +354,12 @@ article .area_1 li div:last-child {
   margin-left: 10px;
 }
 
+.warehouse-img {
+  background: url('./img/06.jpg') no-repeat;
+  background-size: cover;
+}
+
+/* 最新动态 */
 .newInfo {
   width: 718px;
   height: 230px;
@@ -303,6 +369,39 @@ article .area_1 li div:last-child {
   position: relative;
 }
 
+.newInfo ul {
+  width: 100%;
+}
+
+.newInfo li {
+  float: none;
+  list-style: none;
+  width: 100%;
+  height: 40px;
+  display: block;
+  line-height: 40px;
+  border-bottom: #333 1px dashed;
+  border-radius: 0 0 0 0
+}
+
+.newInfo ul li:last-child {
+  border-bottom: 0
+}
+
+.newInfo li div:first-child {
+  width: 80%;
+  height: 40px;
+  text-align: left;
+  font-size: 12px;
+}
+
+.newInfo li div:last-child {
+  text-align: right;
+  width: 20%;
+  height: 40px;
+}
+
+/* 联系我们 */
 .contactUs {
   width: 232px;
   height: 230px;
@@ -311,6 +410,20 @@ article .area_1 li div:last-child {
   padding: 10px;
   margin-left: 10px;
 }
+
+.contactUs ul {
+  width: 100%;
+}
+
+.contactUs ul li {
+  float: none;
+  list-style: none;
+  margin-top: 10px;
+  padding: 5px;
+  border: 1px solid #333;
+
+}
+
 
 .footInfo {
   width: 1000px;
