@@ -1,3 +1,3 @@
 <template>
-  <div></div>
+  <div>新闻中心</div>
 </template>

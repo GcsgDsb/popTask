@@ -1,3 +1,3 @@
 <template>
-  <div></div>
+  <div>物流仓储中心</div>
 </template>

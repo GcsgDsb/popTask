@@ -38,7 +38,7 @@ export default new Router({
     {
       path: '/logistics',
       name: 'logistics',
-      component: () => import('./views/Logistice.vue')
+      component: () => import('./views/Logistics.vue')
     },
     {
       path: '/news',
