@@ -2,7 +2,8 @@
   <article>
     <!-- 轮播图 -->
     <div class="slide_show">
-      <img id="switch_img" />
+      <img id="switch_img"
+           src='../assets/img/0.jpg' />
       <div class="switch_btn">
         <div class="switch_btn_bg">1</div>
         <div>2</div>
@@ -158,10 +159,6 @@
       </ul>
     </div>
     <!--TODO: 脚信息  -->
-    <div class="footInfo">
-      <p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
-      <p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
-    </div>
   </article>
 </template>
 
@@ -183,6 +180,7 @@ export default {
 article {
   width: 100%;
   padding: 0 20px;
+  float: left;
 }
 
 article .slide_show {
@@ -499,16 +497,6 @@ article .area_1 li div:last-child {
   margin-top: 10px;
   padding: 5px;
   border: 1px solid #333;
-}
-
-.footInfo {
-  width: 1000px;
-  height: 200px;
-  background: #ccc;
-  margin-top: 10px;
-  text-align: center;
-  padding-top: 100px;
-  box-sizing: border-box;
 }
 </style>
 

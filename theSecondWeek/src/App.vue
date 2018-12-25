@@ -1,35 +1,54 @@
 <template>
   <div id="app">
-		<header>
-			<div class="img"><img /></div>
-			<div class="title">
-				<div class="cn">中远（北京）实业有限公司</div>
-				<div class="en">ZHONG YUAN (BEIJING)</div>
-			</div>
-		</header>
-		<!-- 导航栏 #3688AE #BB2838 -->
-		<div class="line"></div>
-		<nav>
-			<ul id="nav_ul">
-				<li class="bg">首页</li>
-				<li>公司简介</li>
-				<li>物业管理</li>
-				<li>后勤保障</li>
-				<li>船员中心</li>
-				<li>物流仓储中心</li>
-				<li>新闻中心</li>
-				<li>企业文化</li>
-				<li>招聘信息</li>
-				<li>联系我们</li>
-			</ul>
-		</nav>
-    <router-view/>
+    <header>
+      <div class="img"><img /></div>
+      <div class="title">
+        <div class="cn">中远（北京）实业有限公司</div>
+        <div class="en">ZHONG YUAN (BEIJING)</div>
+      </div>
+    </header>
+    <!-- 导航栏 #3688AE #BB2838 -->
+    <div class="line"></div>
+    <nav>
+      <ul id="nav_ul">
+        <li class="bg">
+          <router-link tag="div"
+                       :to='{path: "/"}'>
+            首页
+          </router-link>
+        </li>
+        <li>
+          <router-link tag="div"
+                       :to='{path: "company"}'>
+            公司简介
+          </router-link>
+        </li>
+        <li>
+          <router-link tag="div"
+                       :to='{path: "property"}'>
+            物业管理
+          </router-link>
+        </li>
+        <li>后勤保障</li>
+        <li>船员中心</li>
+        <li>物流仓储中心</li>
+        <li>新闻中心</li>
+        <li>企业文化</li>
+        <li>招聘信息</li>
+        <li>联系我们</li>
+      </ul>
+    </nav>
+    <router-view />
+    <div class="footInfo">
+      <p>版权所有 @2009:香远(北京)投资有限公司</p>
+      <p>技术支持:中远网络(北京)有限公司</p>
+    </div>
   </div>
 </template>
 
 <style>
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
@@ -66,7 +85,6 @@ img {
   float: left;
   border-radius: 5px;
 }
-
 
 /* 头部 */
 header {
@@ -149,5 +167,16 @@ nav .bg {
   border: 1px solid black;
   border-bottom: 0;
   border-top: 0;
+}
+
+.footInfo {
+  width: 1000px;
+  height: 200px;
+  background: #282828;
+  color: #fff;
+  margin-top: 10px;
+  text-align: center;
+  padding-top: 100px;
+  margin-left: 20px;
 }
 </style>
