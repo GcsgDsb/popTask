@@ -42,7 +42,7 @@
           物流仓储中心
         </router-link>
         <router-link tag="li"
-                     :class="$route.name.indexOf('new') > -1 ? 'bg' : ''"
+                     :class="$route.name && $route.name.indexOf('new') > -1 ? 'bg' : ''"
                      :to='{path: "news"}'>
           新闻中心
         </router-link>
