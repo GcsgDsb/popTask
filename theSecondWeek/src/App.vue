@@ -11,66 +11,56 @@
     <div class="line"></div>
     <nav>
       <ul id="nav_ul">
-        <li :class="$route.name === 'home' ? 'bg' : ''">
-          <router-link tag="div"
-                       :to='{path: "/"}'>
-            首页
-          </router-link>
-        </li>
-        <li :class="$route.name === 'company' ? 'bg' : ''">
-          <router-link tag="div"
-                       :to='{path: "company"}'>
-            公司简介
-          </router-link>
-        </li>
-        <li :class="$route.name === 'property' ? 'bg' : ''">
-          <router-link tag="div"
-                       :to='{path: "property"}'>
-            物业管理
-          </router-link>
-        </li>
-        <li :class="$route.name === 'security' ? 'bg' : ''">
-          <router-link tag="div"
-                       :to='{path: "security"}'>
-            后勤保障
-          </router-link>
-        </li>
-        <li :class="$route.name === 'crew' ? 'bg' : ''">
-          <router-link tag="div"
-                       :to='{path: "crew"}'>
-            船员中心
-          </router-link>
-        </li>
-        <li :class="$route.name === 'logistics' ? 'bg' : ''">
-          <router-link tag="div"
-                       :to='{path: "logistics"}'>
-            物流仓储中心
-          </router-link>
-        </li>
-        <li :class="$route.name.indexOf('new') > -1 ? 'bg' : ''">
-          <router-link tag="div"
-                       :to='{path: "news"}'>
-            新闻中心
-          </router-link>
-        </li>
-        <li :class="$route.name === 'culture' ? 'bg' : ''">
-          <router-link tag="div"
-                       :to='{path: "culture"}'>
-            企业文化
-          </router-link>
-        </li>
-        <li :class="$route.name === 'recruitment' ? 'bg' : ''">
-          <router-link tag="div"
-                       :to='{path: "recruitment"}'>
-            招聘信息
-          </router-link>
-        </li>
-        <li :class="$route.name === 'contact' ? 'bg' : ''">
-          <router-link tag="div"
-                       :to='{path: "contact"}'>
-            联系我们
-          </router-link>
-        </li>
+        <router-link tag="li"
+                     :class="$route.name === 'home' ? 'bg' : ''"
+                     :to='{path: "/"}'>
+          首页
+        </router-link>
+        <router-link tag="li"
+                     :class="$route.name === 'company' ? 'bg' : ''"
+                     :to='{path: "company"}'>
+          公司简介
+        </router-link>
+        <router-link tag="li"
+                     :class="$route.name === 'property' ? 'bg' : ''"
+                     :to='{path: "property"}'>
+          物业管理
+        </router-link>
+        <router-link tag="li"
+                     :class="$route.name === 'security' ? 'bg' : ''"
+                     :to='{path: "security"}'>
+          后勤保障
+        </router-link>
+        <router-link tag="li"
+                     :class="$route.name === 'crew' ? 'bg' : ''"
+                     :to='{path: "crew"}'>
+          船员中心
+        </router-link>
+        <router-link tag="li"
+                     :class="$route.name === 'logistics' ? 'bg' : ''"
+                     :to='{path: "logistics"}'>
+          物流仓储中心
+        </router-link>
+        <router-link tag="li"
+                     :class="$route.name.indexOf('new') > -1 ? 'bg' : ''"
+                     :to='{path: "news"}'>
+          新闻中心
+        </router-link>
+        <router-link tag="li"
+                     :class="$route.name === 'culture' ? 'bg' : ''"
+                     :to='{path: "culture"}'>
+          企业文化
+        </router-link>
+        <router-link tag="li"
+                     :class="$route.name === 'recruitment' ? 'bg' : ''"
+                     :to='{path: "recruitment"}'>
+          招聘信息
+        </router-link>
+        <router-link tag="li"
+                     :class="$route.name === 'contact' ? 'bg' : ''"
+                     :to='{path: "contact"}'>
+          联系我们
+        </router-link>
       </ul>
     </nav>
     <router-view />
