@@ -108,9 +108,10 @@
 }
 
 body {
-  width: 1000px;
+  width: 980px;
   margin: auto auto;
   background: #333;
+  /* float: left; */
 }
 
 body div,
@@ -126,7 +127,7 @@ header {
   float: left;
   width: 100%;
   height: 100px;
-  padding: 10px 20px;
+  /* padding: 10px 10px; */
   border: 1px solid black;
   border-top: 0;
   background: #fff;
@@ -168,7 +169,7 @@ nav {
   background: #3688ae;
   height: 40px;
   float: left;
-  padding: 0 20px;
+  /* padding: 0 10px; */
   border: 1px solid black;
   border-top: 0;
   color: #fff;
@@ -199,14 +200,14 @@ nav .bg {
   background: linear-gradient(#e79fa8, #ea818d);
   width: 100%;
   height: 5px;
-  padding: 0 20px;
+  /* padding: 0 20px; */
   border: 1px solid black;
   border-bottom: 0;
   border-top: 0;
 }
 
 .footInfo {
-  width: 1000px;
+  width: 980px;
   height: 200px;
   background: #282828;
   color: #fff;
