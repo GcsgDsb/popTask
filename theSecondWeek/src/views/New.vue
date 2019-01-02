@@ -26,34 +26,6 @@ export default {
 }
 </script>
 <style scoped>
-.new {
-  background: #fff;
-  width: 980px;
-  margin: 10px 20px;
-}
-
-.title {
-  font-size: 20px;
-  font-weight: bold;
-}
-
-.new-content {
-  width: 940px;
-  border-top: 1px dotted #333;
-  margin: 20px;
-  text-align: left;
-  text-indent: 24px;
-  font-size: 12px;
-}
-
-.new-img {
-  width: 500px;
-  height: 350px;
-  margin-left: 240px;
-  background: url("../assets/img/1.jpg");
-  background-size: cover;
-  margin-top: 10px;
-}
 </style>
 
 

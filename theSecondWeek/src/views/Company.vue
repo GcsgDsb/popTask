@@ -25,39 +25,3 @@ export default {
 }
 </script>
 
-<style scoped>
-.company {
-  width: 980px;
-  height: 450px;
-  background: #fff;
-  margin: 10px 20px;
-}
-
-.nav {
-  width: 940px;
-  margin: 20px;
-  background: #333;
-  height: 30px;
-  border-radius: none;
-  color: #fff;
-  line-height: 30px;
-  font-weight: bolder;
-}
-
-.content {
-  text-align: center;
-  width: 940px;
-  margin-left: 20px;
-}
-
-.article {
-  width: 940px;
-  text-indent: 2rem;
-  text-align: left;
-}
-
-.article p:nth-child(odd) {
-  font-weight: bolder;
-  margin-top: 30px;
-}
-</style>

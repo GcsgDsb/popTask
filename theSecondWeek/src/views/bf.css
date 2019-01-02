@@ -1,0 +1,449 @@
+#nav {
+  padding: 30px;
+}
+
+#nav a {
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+#nav a.router-link-exact-active {
+  color: #42b983;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 980px;
+  margin: auto auto;
+  background: #333;
+  /* float: left; */
+}
+
+body div,
+ul,
+li,
+img {
+  /* float: left; */
+  border-radius: 5px;
+}
+
+/* 头部 */
+header {
+  /* float: left; */
+  height: 100px;
+  /* padding: 10px 10px; */
+  border: 1px solid black;
+  border-top: 0;
+  background: #fff;
+}
+
+header div {
+  float: left;
+}
+
+header img {
+  width: 100px;
+  height: 80px;
+}
+
+header .title {
+  width: 300px;
+  height: 80px;
+  padding: 0 20px;
+}
+
+header .title .cn {
+  width: 300px;
+  height: 50px;
+  font-size: 22px;
+  line-height: 50px;
+}
+
+header .title .en {
+  width: 300px;
+  height: 30px;
+  font-size: 10px;
+  line-height: 30px;
+}
+
+/* 导航栏 */
+
+nav {
+  width: 100%;
+  background: #3688ae;
+  height: 40px;
+  float: left;
+  /* padding: 0 10px; */
+  border: 1px solid black;
+  border-top: 0;
+  color: #fff;
+}
+
+nav ul {
+  margin: 0 20px;
+}
+
+nav li {
+  list-style: none;
+  /* float: left; */
+  padding: 0 15px;
+  line-height: 40px;
+}
+
+nav li:hover {
+  background: linear-gradient(#e6adb4, #e79fa8);
+  cursor: pointer;
+}
+
+nav .bg {
+  background: linear-gradient(#e6adb4, #e79fa8);
+}
+
+.line {
+  /* float: left; */
+  background: linear-gradient(#e79fa8, #ea818d);
+  width: 100%;
+  height: 5px;
+  /* padding: 0 20px; */
+  border: 1px solid black;
+  border-bottom: 0;
+  border-top: 0;
+}
+
+.footInfo {
+  width: 980px;
+  height: 200px;
+  background: #282828;
+  color: #fff;
+  margin-top: 10px;
+  text-align: center;
+  padding-top: 100px;
+  margin-left: 20px;
+}
+
+
+article {
+  width: 100%;
+  padding: 0 20px;
+  float: left;
+}
+
+article .slide_show {
+  width: 718px;
+  height: 251px;
+  margin-top: 10px;
+  padding: 10px;
+  background: #fff;
+  position: relative;
+}
+
+article .switch_btn {
+  width: 100%;
+  background: #ccc;
+  opacity: 0.5;
+  height: 30px;
+  position: relative;
+  margin-top: 0;
+  top: -30px;
+}
+
+article .switch_btn div {
+  width: 20px;
+  height: 20px;
+  background: #f5f5f5;
+  margin: 5px;
+  color: #333;
+  line-height: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+
+article .switch_btn div:first-child {
+  margin-left: 650px;
+  background: #0f42a2;
+  color: #fff;
+}
+
+/* 区域1 */
+/* 标题区 */
+article .area_1 {
+  width: 232px;
+  height: 251px;
+  background: #fff;
+  padding: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+article .area_1 div {
+  background: #333;
+  width: 100%;
+  color: #fff;
+  height: 30px;
+}
+
+article .area_1 span:first-child {
+  width: 50%;
+  float: left;
+  text-align: right;
+  height: 30px;
+  line-height: 30px;
+}
+
+article .area_1 span:last-child {
+  font-style: italic;
+  font-family: Georgia;
+  font-size: 12px;
+  text-align: right;
+  display: block;
+  float: left;
+  margin-right: 0;
+  position: relative;
+  margin-top: 10px;
+  height: 20px;
+  line-height: 20px;
+  width: 30%;
+  margin-left: 15%;
+}
+
+/* 内容区 列表 */
+article .area_1 ul {
+  width: 100%;
+  margin-top: 20px;
+}
+
+article .area_1 li {
+  list-style: none;
+  width: 100%;
+  border-bottom: 1px #ccc dashed;
+  border-radius: 0 0 0 0;
+}
+
+article .area_1 li:last-child {
+  border: none;
+}
+
+article .area_1 li div:first-child {
+  width: 80%;
+  list-style: none;
+  background: #fff;
+  color: #333;
+  margin-bottom: 5px;
+  height: 35px;
+  line-height: 35px;
+}
+
+article .area_1 li div:last-child {
+  width: 20%;
+  background: #fff;
+  color: #ccc;
+  text-align: right;
+  height: 35px;
+  line-height: 35px;
+}
+
+/* 信息公告 */
+
+.announcement {
+  width: 1000px;
+  background: #fff;
+  height: 40px;
+  margin-top: 10px;
+}
+
+.announcement .title {
+  width: 100px;
+  height: 30px;
+  text-align: right;
+  line-height: 30px;
+  margin-top: 5px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.announcement .content {
+  width: 550px;
+  height: 26px;
+  line-height: 26px;
+  margin-top: 7px;
+  margin-left: 50px;
+}
+
+.announcement .tips {
+  width: 250px;
+  height: 26px;
+  line-height: 26px;
+  margin-top: 7px;
+  margin-left: 50px;
+  text-align: right;
+  /* 未生效 */
+  text-overflow: ellipsis;
+}
+
+/* 关于我们 */
+.aboutUs {
+  width: 234px;
+  height: 251px;
+  background: #fff;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.title-nav {
+  background: #333;
+  width: 100%;
+  height: 30px;
+  color: #fff;
+}
+
+.title-name {
+  width: 80%;
+  line-height: 30px;
+}
+
+.title-more {
+  width: 20%;
+  margin-top: 10px;
+  height: 20px;
+  line-height: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: italic;
+  text-align: right;
+  font-size: 12px;
+}
+
+.content-img {
+  width: 100%;
+  height: 107px;
+  /* background: url("./img/03.gif") no-repeat; */
+  background-size: cover;
+  margin-top: 10px;
+}
+
+.content-content {
+  width: 100%;
+  margin-top: 10px;
+  font-size: 12px;
+}
+
+/* 后勤保障 */
+.logistics {
+  width: 212px;
+  height: 251px;
+  background: #fff;
+  margin-top: 10px;
+  padding: 10px;
+  margin-left: 10px;
+}
+
+.logistics-title {
+  background: #fff;
+  color: #333;
+  font-weight: bold;
+}
+
+.logistics-img {
+  /* background: url("./img/04.jpg") no-repeat; */
+}
+
+.foot-more {
+  margin-top: 15px;
+  font-size: 12px;
+  text-align: right;
+  width: 100%;
+}
+
+/* 船员中心 */
+.crew {
+  width: 212px;
+  height: 251px;
+  background: #fff;
+  margin-top: 10px;
+  padding: 10px;
+  margin-left: 10px;
+}
+
+.crew-img {
+  /* background: url("./img/05.jpg") no-repeat; */
+}
+
+.warehouse {
+  width: 232px;
+  height: 251px;
+  background: #fff;
+  margin-top: 10px;
+  padding: 10px;
+  margin-left: 10px;
+}
+
+.warehouse-img {
+  /* background: url("./img/06.jpg") no-repeat; */
+  background-size: cover;
+}
+
+/* 最新动态 */
+.newInfo {
+  width: 718px;
+  height: 230px;
+  margin-top: 10px;
+  padding: 10px;
+  background: #fff;
+  position: relative;
+}
+
+.newInfo ul {
+  width: 100%;
+}
+
+.newInfo li {
+  float: none;
+  list-style: none;
+  width: 100%;
+  height: 40px;
+  display: block;
+  line-height: 40px;
+  border-bottom: #333 1px dashed;
+  border-radius: 0 0 0 0;
+}
+
+.newInfo ul li:last-child {
+  border-bottom: 0;
+}
+
+.newInfo li div:first-child {
+  width: 80%;
+  height: 40px;
+  text-align: left;
+  font-size: 12px;
+}
+
+.newInfo li div:last-child {
+  text-align: right;
+  width: 20%;
+  height: 40px;
+}
+
+/* 联系我们 */
+.contactUs {
+  width: 232px;
+  height: 230px;
+  background: #fff;
+  margin-top: 10px;
+  padding: 10px;
+  margin-left: 10px;
+}
+
+.contactUs ul {
+  width: 100%;
+}
+
+.contactUs ul li {
+  float: none;
+  list-style: none;
+  margin-top: 10px;
+  padding: 5px;
+  border: 1px solid #333;
+}

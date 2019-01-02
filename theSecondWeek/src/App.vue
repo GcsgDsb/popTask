@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <header>
-      <div class="img"><img /></div>
+      <div class="img"></div>
       <div class="title">
         <div class="cn">中远（北京）实业有限公司</div>
         <div class="en">ZHONG YUAN (BEIJING)</div>
@@ -76,134 +76,82 @@
   font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
+  /* text-align: center; */
   color: #2c3e50;
-}
-#nav {
-  padding: 30px;
-}
-
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-#nav a.router-link-exact-active {
-  color: #42b983;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-}
-
-body {
   width: 980px;
-  margin: auto auto;
-  background: #333;
-  /* float: left; */
+  margin: 0 auto;
+  position: relative;
 }
-
-body div,
-ul,
-li,
-img {
-  float: left;
-  border-radius: 5px;
-}
-
-/* 头部 */
 header {
-  float: left;
-  width: 100%;
-  height: 100px;
-  /* padding: 10px 10px; */
-  border: 1px solid black;
-  border-top: 0;
+  width: 980px;
+  height: 67px;
+  /* border: 1px #333 solid; */
   background: #fff;
 }
-
-header div {
-  float: left;
+.img {
+  width: 50px;
+  height: 50px;
+  background: url("../src/assets/logo.png");
+  background-size: cover;
+  position: relative;
+  top: 8.5px;
+  left: 30px;
+  display: inline-block;
 }
 
-header img {
-  width: 100px;
-  height: 80px;
-}
-
-header .title {
-  width: 300px;
-  height: 80px;
-  padding: 0 20px;
-}
-
-header .title .cn {
+.title {
   width: 300px;
   height: 50px;
-  font-size: 22px;
-  line-height: 50px;
-}
-
-header .title .en {
-  width: 300px;
-  height: 30px;
-  font-size: 10px;
-  line-height: 30px;
-}
-
-/* 导航栏 */
-
-nav {
-  width: 100%;
-  background: #3688ae;
-  height: 40px;
-  float: left;
-  /* padding: 0 10px; */
-  border: 1px solid black;
-  border-top: 0;
-  color: #fff;
-}
-
-nav ul {
-  margin: 0 20px;
-}
-
-nav li {
-  list-style: none;
-  float: left;
-  padding: 0 15px;
-  line-height: 40px;
-}
-
-nav li:hover {
-  background: linear-gradient(#e6adb4, #e79fa8);
-  cursor: pointer;
-}
-
-nav .bg {
-  background: linear-gradient(#e6adb4, #e79fa8);
+  display: inline-block;
+  position: relative;
+  left: 50px;
 }
 
 .line {
-  float: left;
   background: linear-gradient(#e79fa8, #ea818d);
-  width: 100%;
-  height: 5px;
-  /* padding: 0 20px; */
-  border: 1px solid black;
-  border-bottom: 0;
-  border-top: 0;
+  height: 3px;
+  width: 980px;
+}
+
+nav {
+  width: 980px;
+  background: #fff;
+}
+nav ul {
+  list-style: none;
+  line-height: 38px;
+  height: 38px;
+  display: inline-block;
+  width: 880px;
+  margin-left: 50px;
+  border: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  width: 88px;
+  font-size: 12px;
+  text-align: center;
+  line-height: 38px;
+  height: 38px;
+  /* FIXME: 下面两个属性去掉会出现一个1px的上边距 */
+  position: relative;
+  top: -1px;
+}
+
+nav ul li:hover {
+  background: linear-gradient(#e79fa8, #ea818d);
+}
+
+.bg {
+  background: linear-gradient(#e79fa8, #ea818d);
 }
 
 .footInfo {
   width: 980px;
-  height: 200px;
-  background: #282828;
+  height: 87px;
+  text-align: center;
   color: #fff;
   margin-top: 10px;
-  text-align: center;
-  padding-top: 100px;
-  margin-left: 20px;
 }
 </style>
