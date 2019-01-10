@@ -2,177 +2,245 @@
   <article>
     <!-- 轮播图 -->
     <div class="slide_show">
-      <img id="switch_img"
-           src='../assets/img/0.jpg' />
-      <div class="switch_btn">
-        <div class="switch_btn_bg">1</div>
-        <div>2</div>
+      <div class="slide_img">
+        <div class="slide_scroll">
+          <span>1</span>
+          <span>2</span>
+          <span>3</span>
+        </div>
       </div>
     </div>
     <!-- 物业管理 -->
     <div class="area_1">
-      <div>
+      <div class='title'>
+        <span></span>
         <span>物业管理</span>
         <span>More</span>
       </div>
       <ul>
         <li>
           <div>
-            <div></div>办公室项目
+            <span></span>
+            <span>办公室物业项目</span>
+            <span>></span>
           </div>
-          <div>></div>
         </li>
         <li>
           <div>
-            <div></div>
-            办公室项目
+            <span></span>
+            <span>办公室物业项目</span>
+            <span>></span>
           </div>
-          <div>></div>
         </li>
         <li>
           <div>
-            <div></div>办公室项目
+            <span></span>
+            <span>办公室物业项目</span>
+            <span>></span>
           </div>
-          <div>></div>
         </li>
         <li>
           <div>
-            <div></div>办公室项目
+            <span></span>
+            <span>办公室物业项目</span>
+            <span>></span>
           </div>
-          <div>></div>
         </li>
         <li>
           <div>
-            <div></div>办公室项目
+            <span></span>
+            <span>办公室物业项目</span>
+            <span>></span>
           </div>
-          <div>></div>
         </li>
       </ul>
     </div>
+
     <!--TODO: 信息公告 -->
-    <div class="announcement">
-      <div class="title">
-        <i></i>
-        <span>信息公告</span>
-      </div>
-      <div class="content">
-        axzdasdasdasdasdasdasdasdasdasd
-      </div>
-      <div class="tips">axzdasdasdasdasdasdasdas</div>
+
+    <div class="info-anno">
+      <span>
+        <img src="../assets/img/11.png" />
+      </span>
+      <span>信息公告</span>
+      <span>dsasadasdasdasdasd</span>
     </div>
-    <!--TODO: 关于我们 -->
-    <div class="aboutUs">
-      <div class='title-nav'>
-        <div class="title-name">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关于我们</div>
-        <div class="title-more">More&nbsp;&nbsp;</div>
-      </div>
-      <div class="content-img">
-      </div>
-      <div class="content-content">
-        中远（北京）实业有限公司是以提供物业管理等为主要业务的综合服务型企业，前身为中国远洋运输（集团）总公司在京直属企业。现为中远海运（香港）有限公司所属香远（北京）投资...
-      </div>
-    </div>
-    <!--TODO: 后勤保障 -->
-    <div class="logistics">
-      <div class='title-nav logistics-title'>
-        <div class="title-name ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;后勤保障</div>
-      </div>
-      <div class="content-img logistics-img">
-      </div>
-      <div class="content-content">
-        中远（北京）实业有限公司是以提供物业管理等为主要业务的综合服务型企业，前身为中国远洋运输（集团）总公司在京直属企业
-      </div>
-      <div class="foot-more">More&nbsp;&nbsp;</div>
-    </div>
-    <!--TODO: 船员中心 -->
-    <div class="crew">
-      <div class='title-nav logistics-title'>
-        <div class="title-name ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;船员中心</div>
-      </div>
-      <div class="content-img crew-img">
-      </div>
-      <div class="content-content">
-        中远（北京）实业有限公司是以提供物业管理等为主要业务的综合服务型企业，前身为中国远洋运输（集团）总公司在京直属企业
-      </div>
-      <div class="foot-more">More&nbsp;&nbsp;</div>
-    </div>
-    <!--TODO: 物流仓储中心 -->
-    <div class="warehouse">
-      <div class='title-nav logistics-title'>
-        <div class="title-name ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;船员中心</div>
-      </div>
-      <div class="content-img warehouse-img">
-      </div>
-      <div class="content-content">
-        中远（北京）实业有限公司是以提供物业管理等为主要业务的综合服务型企业，前身为中国远洋运输（集团）总公司在京直属企业属企业属企业属企业属企业
-      </div>
-      <div class="foot-more">More&nbsp;&nbsp;</div>
-    </div>
-    <!--TODO: 最新动态 -->
-    <div class="newInfo">
-      <div class='title-nav'>
-        <div class="title-name">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;最新动态</div>
-        <div class="title-more">More&nbsp;&nbsp;</div>
-      </div>
-      <ul>
-        <li>
-          <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;中远（北京）实业有限公司是以提供物业管理等为主要业务的综合服务型企业</div>
-          <div>2011-12-11</div>
-        </li>
-        <li>
-          <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;中远（北京）实业有限公司是以提供物业管理等为主要业务的综合服务型企业</div>
-          <div>2011-12-11</div>
-        </li>
-        <li>
-          <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;中远（北京）实业有限公司是以提供物业管理等为主要务的综合服务型企业</div>
-          <div>2011-12-11</div>
-        </li>
-        <li>
-          <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;中远（北京）实业有限公司是以提供物业业务的综合服务型企业</div>
-          <div>2011-12-11</div>
-        </li>
-        <li>
-          <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;中远（北京）实业有限公司是以提供物业管理等为主要业务的综合服务型企业</div>
-          <div>2011-12-11</div>
-        </li>
-      </ul>
-    </div>
-    <!--TODO: 联系我们 -->
-    <div class="contactUs">
-      <div class='title-nav'>
-        <div class="title-name">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;联系我们</div>
-        <div class="title-more">More&nbsp;&nbsp;</div>
-      </div>
-      <ul>
-        <li>
-          <p>总&nbsp;机:</p>
-          <p>010-65121188</p>
-        </li>
-        <li>
-          <p>传&nbsp;真:</p>
-          <p>010-65121188</p>
-        </li>
-        <li>
-          <p>地&nbsp;址:</p>
-          <p>东长安街6号</p>
-        </li>
-      </ul>
-    </div>
+
     <!--TODO: 脚信息  -->
   </article>
 </template>
 
 <script>
 // @ is an alias to /src
-// import HelloWorld from '@/components/HelloWorld.vue'
 
 export default {
   name: 'home',
+  created () {
+  },
 }
 </script>
 
-<style scoped>
+
+<style lang="scss" scoped>
 /* 内容区 */
-/* 轮播图 */
+article {
+  width: 980px;
+  position: relative;
+  top: 0;
+  left: 0;
+
+  .slide_show {
+    vertical-align: top;
+    display: inline-block;
+    width: 730px;
+    height: 267px;
+    margin: 10px;
+    position: relative;
+    background: #fff;
+
+    .slide_img {
+      width: 720px;
+      height: 257px;
+      position: relative;
+      top: 5px;
+      left: 5px;
+      background: url('../assets/img/0.jpg');
+      background-size: cover;
+
+      .slide_scroll {
+        background: rgba($color: #fff, $alpha: 0.6);
+        height: 40px;
+        position: relative;
+        top: 217px;
+        text-align: right;
+
+        span {
+          display: inline-block;
+          background: rgba($color: #000000, $alpha: 1);
+          color: #fff;
+          width: 20px;
+          height: 20px;
+          // position: relative;
+          margin: 10px;
+          text-align: center;
+          line-height: 20px;
+        }
+      }
+    }
+  }
+
+  .area_1 {
+    width: 215px;
+    height: 257px;
+    display: inline-block;
+    background: #fff;
+    vertical-align: top;
+    position: relative;
+    top: 10px;
+    padding: 5px;
+
+    .title {
+      width: 215px;
+      height: 20px;
+      background: #000000;
+      position: relative;
+      left: 0;
+      color: #fff;
+      line-height: 20px;
+
+      span {
+        font-size: 12px;
+      }
+
+      span:first-child {
+        display: inline-block;
+        background: url('../assets/img/10.png');
+        background-size: cover;
+        width: 15px;
+        height: 15px;
+        position: relative;
+        top: 2.5px;
+        margin-right: 10px;
+      }
+
+      span:last-child {
+        position: absolute;
+        right: 3px;
+      }
+    }
+    ul {
+      width: 215px;
+      margin-top: 10px;
+    }
+
+    li {
+      list-style: none;
+      width: 215px;
+      height: 44px;
+      border-bottom: 1px dashed #333;
+
+      &:last-child {
+        border-bottom: 0px;
+      }
+
+      div {
+        width: 215px;
+        height: 30px;
+        padding-top: 7px;
+        position: relative;
+
+        span {
+          display: inline-block;
+          line-height: 30px;
+          &:first-child {
+            width: 40px;
+            height: 30px;
+            background: url('../assets/img/03.gif');
+            background-size: cover;
+            margin-right: 10px;
+          }
+          &:nth-child(2) {
+            position: absolute;
+            top: 10px;
+          }
+          &:last-child {
+            position: absolute;
+            right: 3px;
+            line-height: 30px;
+          }
+        }
+      }
+    }
+  }
+
+  .info-anno {
+    width: 965px;
+    background: #fff;
+    height: 30px;
+    line-height: 30px;
+    position: relative;
+    margin: 0 10px;
+    span {
+      display: inline-block;
+      vertical-align: top;
+      &:first-child {
+        background: red;
+        width: 20px;
+        height: 20px;
+        position: relative;
+        top: 5px;
+        left: 30px;
+        border-radius: 10px;
+        line-height: 20px;
+      }
+      &:nth-child(2) {
+        margin-left: 50px;
+      }
+      &:last-child {
+        margin-left: 100px;
+      }
+    }
+  }
+}
 </style>
 

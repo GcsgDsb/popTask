@@ -73,7 +73,7 @@
 
 <style>
 #app {
-  font-family: "Avenir", Helvetica, Arial, sans-serif;
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   /* text-align: center; */
@@ -91,7 +91,7 @@ header {
 .img {
   width: 50px;
   height: 50px;
-  background: url("../src/assets/logo.png");
+  background: url('../src/assets/logo.png');
   background-size: cover;
   position: relative;
   top: 8.5px;
@@ -122,21 +122,20 @@ nav ul {
   line-height: 38px;
   height: 38px;
   display: inline-block;
-  width: 880px;
+  width: 900px;
   margin-left: 50px;
   border: 0;
+  /* FIXME: 会出现一个1px的上边距 火狐下是1.5px*/
+  font-size: 0;
 }
 
 nav ul li {
   display: inline-block;
-  width: 88px;
+  width: 90px;
   font-size: 12px;
   text-align: center;
   line-height: 38px;
   height: 38px;
-  /* FIXME: 下面两个属性去掉会出现一个1px的上边距 */
-  position: relative;
-  top: -1px;
 }
 
 nav ul li:hover {
@@ -152,6 +151,6 @@ nav ul li:hover {
   height: 87px;
   text-align: center;
   color: #fff;
-  margin-top: 10px;
+  /* margin-top: 10px; */
 }
 </style>
