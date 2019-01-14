@@ -13,8 +13,8 @@ export default {
 </script>
 <style scoped>
 .nav {
-  width: 940px;
-  margin: 20px;
+  width: 960px;
+  margin: 10px;
   background: #333;
   height: 30px;
   border-radius: none;

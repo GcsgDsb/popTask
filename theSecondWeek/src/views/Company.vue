@@ -24,4 +24,14 @@ export default {
   }
 }
 </script>
+<style lang="scss" scoped>
+.company {
+  width: 980px;
+  position: relative;
+  top: 0;
+  left: 0;
+  background: #fff;
+}
+</style>
+
 
