@@ -55,9 +55,7 @@
         </li>
       </ul>
     </div>
-
-    <!--TODO: 信息公告 -->
-
+    <!-- 信息公告 -->
     <div class="info-anno">
       <span>
         <img src="../assets/img/11.png" />
@@ -65,8 +63,107 @@
       <span>信息公告</span>
       <span>dsasadasdasdasdasd</span>
     </div>
-
-    <!--TODO: 脚信息  -->
+    <!--关于我们 -->
+    <div class="aboutUs">
+      <div class="title">
+        <span></span>
+        <span>关于我们</span>
+        <span>More</span>
+      </div>
+      <div class="content-img"></div>
+      <div class="content-content">
+        中远（北京）实业有限公司是以提供物业管理等为主要业务的综合服务型企业，前身为中国远洋运输（集团）总公司在京直属企业。现为中远海运（香港）有限公司所属香远（北京）投资...
+      </div>
+    </div>
+    <!--后勤保障 -->
+    <div class="logistics">
+      <div class="title">
+        <span></span>
+        <span>后勤保障</span>
+      </div>
+      <div class="content-img"></div>
+      <div class="content-content">
+        中远（北京）实业有限公司是以提供物业管理等为主要业务的综合服务型企业
+      </div>
+      <div class="foot-more">More&nbsp;&nbsp;</div>
+    </div>
+    <!-- 船员中心 -->
+    <div class="crew">
+      <div class="title">
+        <span></span>
+        <span>船员中心</span>
+      </div>
+      <div class="content-img"></div>
+      <div class="content-content">
+        中远（北京）实业有限公司是以提供物业管理等为主要业务的综合服务型企业
+      </div>
+      <div class="foot-more">More&nbsp;&nbsp;</div>
+    </div>
+    <div class="warehouse">
+      <div class="title">
+        <span></span>
+        <span>物流仓储中心</span>
+      </div>
+      <div class="content-img"></div>
+      <div class="content-content">
+        中远（北京）实业有限公司是以提供物业管理等为主要业务的综合服务型企业
+      </div>
+      <div class="foot-more">More&nbsp;&nbsp;</div>
+    </div>
+    <div class="newInfo">
+      <div class="title">
+        <span></span>
+        <span>新闻中心</span>
+        <span>More</span>
+      </div>
+      <ul>
+        <li>
+          <span></span>
+          <span>中远（北京）实业有限公司是以提供物业管理等为主要务的综合服务型企业</span>
+          <span>2011-12-11</span>
+        </li>
+        <li>
+          <span></span>
+          <span>中远（北京）实业有限公司是以提供物业管理等为主要务的综合服务型企业</span>
+          <span>2011-12-11</span>
+        </li>
+        <li>
+          <span></span>
+          <span>中远（北京）实业有限公司是以提供物业管理等为主要务的综合服务型企业</span>
+          <span>2011-12-11</span>
+        </li>
+        <li>
+          <span></span>
+          <span>中远（北京）实业有限公司是以提供物业管理等为主要务的综合服务型企业</span>
+          <span>2011-12-11</span>
+        </li>
+        <li>
+          <span></span>
+          <span>中远（北京）实业有限公司是以提供物业管理等为主要务的综合服务型企业</span>
+          <span>2011-12-11</span>
+        </li>
+      </ul>
+    </div>
+    <div class="contact">
+      <div class="title">
+        <span></span>
+        <span>联系我们</span>
+      </div>
+      <ul>
+        <li>
+          <p>总&nbsp;机:</p>
+          <p>010-65121188</p>
+        </li>
+        <li>
+          <p>传&nbsp;真:</p>
+          <p>010-65121188</p>
+        </li>
+        <li>
+          <p>地&nbsp;址:</p>
+          <p>东长安街6号</p>
+        </li>
+      </ul>
+    </div>
   </article>
 </template>
 
@@ -214,12 +311,12 @@ article {
   }
 
   .info-anno {
-    width: 965px;
+    width: 980px;
     background: #fff;
     height: 30px;
     line-height: 30px;
     position: relative;
-    margin: 0 10px;
+    // margin: 0 10px;
     span {
       display: inline-block;
       vertical-align: top;
@@ -239,6 +336,338 @@ article {
       &:last-child {
         margin-left: 100px;
       }
+    }
+  }
+
+  .aboutUs {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    left: 10px;
+    top: 10px;
+    width: 268px;
+    height: 258px;
+    padding: 5px;
+    background: #fff;
+    .title {
+      width: 268px;
+      height: 20px;
+      background: #000000;
+      position: relative;
+      left: 0;
+      color: #fff;
+      line-height: 20px;
+
+      span {
+        font-size: 12px;
+      }
+
+      span:first-child {
+        display: inline-block;
+        background: url('../assets/img/10.png');
+        background-size: cover;
+        width: 15px;
+        height: 15px;
+        position: relative;
+        top: 2.5px;
+        margin-right: 10px;
+      }
+
+      span:last-child {
+        position: absolute;
+        right: 3px;
+      }
+    }
+    .content-img {
+      margin: 5px 0;
+      width: 268px;
+      height: 158px;
+      background: url('../assets/img/04.jpg');
+      background-size: cover;
+    }
+    .content-content {
+      font-size: 12px;
+    }
+  }
+
+  .logistics {
+    width: 209px;
+    height: 258px;
+    padding: 5px;
+    display: inline-block;
+    background: #fff;
+    position: relative;
+    vertical-align: top;
+    left: 17.5px;
+    top: 10px;
+    .title {
+      width: 209px;
+      height: 20px;
+      background: #000000;
+      position: relative;
+      left: 0;
+      color: #fff;
+      line-height: 20px;
+      span {
+        font-size: 12px;
+      }
+
+      span:first-child {
+        display: inline-block;
+        background: url('../assets/img/10.png');
+        background-size: cover;
+        width: 15px;
+        height: 15px;
+        position: relative;
+        top: 2.5px;
+        margin-right: 10px;
+      }
+
+      span:last-child {
+        position: absolute;
+        right: 3px;
+      }
+    }
+    .content-img {
+      margin: 5px 0;
+      width: 209px;
+      height: 158px;
+      background: url('../assets/img/04.jpg');
+      background-size: cover;
+    }
+    .content-content {
+      font-size: 12px;
+    }
+    .foot-more {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      font-size: 12px;
+    }
+  }
+  .crew {
+    width: 209px;
+    height: 258px;
+    padding: 5px;
+    display: inline-block;
+    background: #fff;
+    position: relative;
+    vertical-align: top;
+    left: 25px;
+    top: 10px;
+    .title {
+      width: 209px;
+      height: 20px;
+      background: #000000;
+      position: relative;
+      left: 0;
+      color: #fff;
+      line-height: 20px;
+
+      span {
+        font-size: 12px;
+      }
+
+      span:first-child {
+        display: inline-block;
+        background: url('../assets/img/10.png');
+        background-size: cover;
+        width: 15px;
+        height: 15px;
+        position: relative;
+        top: 2.5px;
+        margin-right: 10px;
+      }
+
+      span:last-child {
+        position: absolute;
+        right: 3px;
+      }
+    }
+    .content-img {
+      margin: 5px 0;
+      width: 209px;
+      height: 158px;
+      background: url('../assets/img/04.jpg');
+      background-size: cover;
+    }
+    .content-content {
+      font-size: 12px;
+    }
+    .foot-more {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      font-size: 12px;
+    }
+  }
+  .warehouse {
+    width: 215px;
+    height: 258px;
+    padding: 5px;
+    display: inline-block;
+    background: #fff;
+    position: relative;
+    vertical-align: top;
+    left: 35px;
+    top: 10px;
+    .title {
+      width: 215px;
+      height: 20px;
+      background: #000000;
+      position: relative;
+      left: 0;
+      color: #fff;
+      line-height: 20px;
+
+      span {
+        font-size: 12px;
+      }
+
+      span:first-child {
+        display: inline-block;
+        background: url('../assets/img/10.png');
+        background-size: cover;
+        width: 15px;
+        height: 15px;
+        position: relative;
+        top: 2.5px;
+        margin-right: 10px;
+      }
+
+      span:last-child {
+        position: absolute;
+        right: 3px;
+      }
+    }
+    .content-img {
+      margin: 5px 0;
+      width: 215px;
+      height: 158px;
+      background: url('../assets/img/04.jpg');
+      background-size: cover;
+    }
+    .content-content {
+      font-size: 12px;
+    }
+    .foot-more {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      font-size: 12px;
+    }
+  }
+
+  .newInfo {
+    width: 721px;
+    padding: 5px;
+    position: relative;
+    display: inline-block;
+    background: #fff;
+    top: 20px;
+    left: 10px;
+    .title {
+      width: 721px;
+      height: 20px;
+      background: #000000;
+      position: relative;
+      left: 0;
+      color: #fff;
+      line-height: 20px;
+
+      span {
+        font-size: 12px;
+      }
+
+      span:first-child {
+        display: inline-block;
+        background: url('../assets/img/10.png');
+        background-size: cover;
+        width: 15px;
+        height: 15px;
+        position: relative;
+        top: 2.5px;
+        margin-right: 10px;
+      }
+
+      span:last-child {
+        position: absolute;
+        right: 3px;
+      }
+    }
+    ul li {
+      width: 721px;
+      height: 32px;
+      line-height: 32px;
+      border-bottom: 1px dotted #333;
+      font-size: 12px;
+      position: relative;
+      list-style: none;
+      span {
+        &:first-child {
+          display: inline-block;
+          background: url('../assets/img/12.png');
+          background-size: cover;
+          width: 15px;
+          height: 15px;
+          position: relative;
+          top: 2.5px;
+          margin-right: 10px;
+        }
+        &:last-child {
+          position: absolute;
+          right: 0;
+        }
+      }
+    }
+  }
+
+  .contact {
+    width: 215px;
+    height: 187px;
+    padding: 5px;
+    display: inline-block;
+    background: #fff;
+    position: relative;
+    vertical-align: top;
+    left: 20px;
+    top: 20px;
+    .title {
+      width: 215px;
+      height: 20px;
+      background: #000000;
+      position: relative;
+      left: 0;
+      color: #fff;
+      line-height: 20px;
+
+      span {
+        font-size: 12px;
+      }
+
+      span:first-child {
+        display: inline-block;
+        background: url('../assets/img/10.png');
+        background-size: cover;
+        width: 15px;
+        height: 15px;
+        position: relative;
+        top: 2.5px;
+        margin-right: 10px;
+      }
+
+      span:last-child {
+        position: absolute;
+        right: 3px;
+      }
+    }
+
+    ul li {
+      border: 1px solid #333;
+      height: 40px;
+      margin-top: 8px;
+      padding: 3px;
+      list-style: none;
     }
   }
 }

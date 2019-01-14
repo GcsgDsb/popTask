@@ -31,6 +31,6 @@
         "url": "webpack:///src/",
         "path": "${webRoot}/"
       }]
-    }
+    } 
   ]
 }
