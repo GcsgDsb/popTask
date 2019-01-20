@@ -17,11 +17,12 @@ export default {
   margin: 10px;
   background: #333;
   height: 30px;
-  border-radius: none;
   color: #fff;
   line-height: 30px;
   font-weight: bolder;
   text-align: left;
+  position: relative;
+  top: 10px;
 }
 </style>
 

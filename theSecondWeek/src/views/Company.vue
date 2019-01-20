@@ -27,10 +27,28 @@ export default {
 <style lang="scss" scoped>
 .company {
   width: 980px;
+  height: 500px;
   position: relative;
-  top: 0;
+  top: 10px;
   left: 0;
   background: #fff;
+  text-align: center;
+  display: inline-block;
+  .content {
+    position: relative;
+    top: 10px;
+    display: inline-block;
+    width: 960px;
+    left: 10px;
+    p {
+      text-align: left;
+      text-indent: 2em;
+      &:nth-child(odd) {
+        font-weight: bolder;
+        margin-top: 20px;
+      }
+    }
+  }
 }
 </style>
 

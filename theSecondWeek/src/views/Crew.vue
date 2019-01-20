@@ -35,4 +35,51 @@ export default {
   },
 }
 </script>
+<style lang="scss" scoped>
+.crew {
+  width: 980px;
+  background: #fff;
+  position: relative;
+  top: 0px;
+  display: inline-block;
+  height: 500px;
+  .crew-img {
+    width: 300px;
+    height: 200px;
+    background: url('../assets/img/04.jpg');
+    display: inline-block;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    border-radius: 5px;
+    background-size: cover;
+    vertical-align: top;
+  }
+  ul {
+    display: inline-block;
+    width: 640px;
+    position: relative;
+    left: 20px;
+    list-style: none;
+    top: 10px;
+    li {
+      border-bottom: 1px dashed #333;
+      margin-bottom: 10px;
+    }
+    div {
+      width: 200px;
+      background: red;
+      border-radius: 5px;
+      text-align: left;
+      line-height: 1.2em;
+      height: 1.2em;
+      margin-bottom: 10px;
+    }
+    p:last-child {
+      margin-bottom: 10px;
+    }
+  }
+}
+</style>
+
 

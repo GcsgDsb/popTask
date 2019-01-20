@@ -169,11 +169,15 @@
 
 <script>
 // @ is an alias to /src
-
 export default {
   name: 'home',
   created () {
   },
+  methods: {
+    handleClick () {
+      console.log('father')
+    }
+  }
 }
 </script>
 
