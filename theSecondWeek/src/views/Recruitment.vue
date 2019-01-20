@@ -5,8 +5,7 @@
       <h3>中远(北京)实业有限公司</h3>
       <p>总机:010-65121188&nbsp;&nbsp;&nbsp;&nbsp;传真:010-65122408&nbsp;&nbsp;&nbsp;&nbsp;地址:东长安街6号</p>
       <div class="dotted-line"></div>
-      <table border="1"
-             cellspacing="0">
+      <table>
         <thead>
           <td>部门</td>
           <td>电话</td>
@@ -56,3 +55,31 @@ export default {
   }
 }
 </script>
+<style lang="scss" scoped>
+.contact {
+  width: 980px;
+  background: #fff;
+  text-align: center;
+  .dotted-line {
+    width: 960px;
+    height: 30px;
+    border-top: 1px dotted #ccc;
+    position: relative;
+    left: 10px;
+    top: 10px;
+  }
+  table {
+    display: inline-block;
+
+    border-collapse: collapse;
+    thead {
+      background: rgb(76, 137, 99);
+    }
+    td {
+      width: 300px;
+      height: 30px;
+      border: 1px solid rgb(76, 137, 99);
+    }
+  }
+}
+</style>
