@@ -40,7 +40,7 @@ export default {
   width: 980px;
   background: #fff;
   position: relative;
-  top: 0px;
+  top: 10px;
   display: inline-block;
   height: 500px;
   .crew-img {
