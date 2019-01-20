@@ -74,6 +74,7 @@ export default {
       line-height: 1.2em;
       height: 1.2em;
       margin-bottom: 10px;
+      vertical-align: bottom;
     }
     p:last-child {
       margin-bottom: 10px;
